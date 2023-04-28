@@ -1,6 +1,6 @@
 package data_structures;
 
-public class Arrays {
+public class DT01Arrays {
     public static void main(String[] args) {
 
         String[] names = new String[3];
@@ -11,6 +11,8 @@ public class Arrays {
         for (int i = 0; i < names.length; i++) {
             System.out.println(names[i]);
         }
+
+        System.out.println("-------------");
         
         int[] ages = {1, 2, 3, 4, 5}; //same as int ages = new int[]{1, 2, 3, 4, 5};
         //foreach loop with arrays

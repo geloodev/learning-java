@@ -1,6 +1,6 @@
 package data_structures;
 
-public class MultidimensionalArrays {
+public class DT02MultidimensionalArrays {
 
     public static void main(String[] args) {
         int[][] days = new int[2][2];
