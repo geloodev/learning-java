@@ -1,4 +1,4 @@
-package data_structures;
+package a_data_structures;
 
 public class DT01Arrays {
     public static void main(String[] args) {
