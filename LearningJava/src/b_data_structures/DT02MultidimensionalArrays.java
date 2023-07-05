@@ -1,4 +1,4 @@
-package a_data_structures;
+package b_data_structures;
 
 public class DT02MultidimensionalArrays {
 

@@ -1,4 +1,4 @@
-package b_object_orientation.a_association;
+package c_object_orientation.a_association;
 
 public class Team {
     private String name;

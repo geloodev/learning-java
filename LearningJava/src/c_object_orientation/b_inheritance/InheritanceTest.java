@@ -1,4 +1,4 @@
-package b_object_orientation.b_inheritance;
+package c_object_orientation.b_inheritance;
 
 public class InheritanceTest {
     public static void main(String[] args) {
