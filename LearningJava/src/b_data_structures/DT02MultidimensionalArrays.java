@@ -1,5 +1,7 @@
 package b_data_structures;
 
+import java.util.Arrays;
+
 public class DT02MultidimensionalArrays {
 
     public static void main(String[] args) {
@@ -12,8 +14,9 @@ public class DT02MultidimensionalArrays {
         //using for
         for (int i = 0; i < days.length; i++) {
             for (int j = 0; j < days[i].length; j++) {
-                System.out.println(days[i][j]);
+                System.out.print(days[i][j] + " ");
             }
+            System.out.println();
         }
 
         System.out.println("------------------");
@@ -21,8 +24,14 @@ public class DT02MultidimensionalArrays {
         //using foreach
         for (int[] baseArray: days) {
             for (int day: baseArray) {
-                System.out.println(day);
+                System.out.print(day + " ");
             }
+            System.out.println();
         }
+
+        System.out.println("------------------");
+
+        // other way to print 2d arrays, with Arrays.deepToString()
+        System.out.println(Arrays.deepToString(days));
     }
 }
