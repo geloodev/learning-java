@@ -28,10 +28,10 @@ public class DT03ListsAndArrayLists {
         colors.add("blue");
         colors.add("purple");
         colors.add("red");
-        System.out.println(colors);
-        System.out.println(colors.contains("yellow"));
-        System.out.println(colors.contains("blues"));
-        System.out.println(colors.size());
+        System.out.println("colors: " + colors);
+        System.out.println("colors contains yellow?:" + colors.contains("yellow"));
+        System.out.println("colors contains blue?:" + colors.contains("blue"));
+        System.out.println("colors size: " + colors.size());
 
         System.out.println("--------------------");
 
